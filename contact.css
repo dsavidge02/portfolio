@@ -1,0 +1,67 @@
+/* Contact Main CSS */
+.contact-main {
+    background-color: #141414;
+}
+
+.contact-main__container {
+    display: grid;
+    align-items: top;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.contact-main__content {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-main__content {
+    margin-bottom: 1rem;
+}
+
+.contact-main__content h1 {
+    margin-bottom: 1rem;
+}
+
+.contact-main__content a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.contact-main__content span{
+    text-decoration: underline;
+}
+
+.contact-main__content a:link, .contact-main__content a:visited{
+    color: #fff;
+}
+
+.contact-main__content a:hover {
+    cursor: pointer;
+    color: #cccccc;
+}
+
+.contact-main__content a:active {
+    cursor: pointer;
+    color: #aaaaaa;
+}
+
+.contact-main-img__container {
+    height: 30%;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+#contact-main-img {
+    border-radius: 50%;
+}
