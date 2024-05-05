@@ -20,7 +20,9 @@
     max-width: 1300 px;
     margin: 0 auto;
     padding: 0 50 px;
-    /* background-image: linear-gradient(to top, #141414 0%, #0398fc 100%); */
+    background-color: #363636;
+    background-image: linear-gradient(to top, #141414 0%, #363636 100%);
+    background-size: 100%;
 }
 
 #navbar__logo {
@@ -93,7 +95,7 @@
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    background-image: linear-gradient(to top, #d43f8d 100%, #0250c5 0%);
     transition: all 0.3s ease;
 }
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savidge Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,116&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">DANIEL SAVIDGE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">PROJECTS</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <div class="projects">
+        <h1>PROJECTS</h1>
+        <div class="projects__container">
+            <div class="projects__card">
+                <div class="card-content">
+                    <h2>Distributed Graph Processing</h2>
+                    <p>Implementing more efficient parallelized algorithms for CPU and GPU</p>
+                    <button onclick="location.href='graph-processing.html';">Learn More</button>
+                </div>
+            </div>
+            <div class="projects__card">
+                <div class="card-content">
+                    <h2>Computer Vision & Swimming</h2>
+                    <p>Designing a method for tracking and classifying motion in the pool</p>
+                    <button onclick="location.href='compvision-swim.html';">Learn More</button>
+                </div>
+            </div>
+            <div class="projects__card">
+                <div class="card-content">
+                    <h2>Fantasy Football Projections</h2>
+                    <p>Using data science and machine learning techniques to predict performance</p>
+                    <button onclick="location.href='fantasy-football.html';">Learn More</button>
+                </div>
+            </div>
+            <div class="projects__card">
+                <div class="card-content">
+                    <h2>GroupMe Chatbot</h2>
+                    <p>Harnessing API's to enhance communication, organization, and scheduling</p>
+                    <button onclick="location.href='groupme-bot.html';">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <p class="contact-tag">CONNECT WITH ME ON</p>
+                <div class="footer__link--items">
+                    <a href="mailto:dsavidge02@gmail.com" target="_blank">
+                        <i class="lni lni-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-savidge/" target="_blank">
+                        <i class="lni lni-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/dsavidge02" target="_blank">
+                        <i class="lni lni-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
