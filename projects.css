@@ -1,0 +1,93 @@
+.projects {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    flex: 1;
+}
+
+.projects h1 {
+    background-image:  linear-gradient(to bottom, rgb(149, 0, 199) 0%, rgb(0, 95, 199) 90%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    margin: 0 auto;
+    font-size: 4rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.projects__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+    margin-top: 4rem;
+}
+
+.projects__card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.projects__card:nth-child(1) {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/web-graph.jpg');
+}
+
+.projects__card:nth-child(2) {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/swimming-block.jpg');
+}
+
+.projects__card:nth-child(3) {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/football-player.jpg');
+}
+
+.projects__card:nth-child(4) {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/groupme-chatbot.jpg');
+    background-position: center;
+}
+
+.card-content {
+    background-color: rgba(20, 20, 20, 0.85);
+    padding: 10px;
+    position: absolute;
+    top: 375px;
+    left: 10px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+.projects__card h2, .projects__card p, .projects__card button {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.projects__card button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #005FC7;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.projects__card button:hover {
+    color: #005FC7;
+    background: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.projects__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+}
