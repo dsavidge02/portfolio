@@ -60,7 +60,7 @@
 .slideshow__container {
     width: 100%;
     display: flex;
-    animation: marquee 100s infinite linear;
+    animation: marquee 90s infinite linear;
 }
 
 .slideshow__container img {
