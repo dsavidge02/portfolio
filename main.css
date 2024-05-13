@@ -63,6 +63,11 @@
     animation: marquee 90s infinite linear;
 }
 
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-11644px); }
+}
+
 .slideshow__container img {
     height: 400px;
 }
