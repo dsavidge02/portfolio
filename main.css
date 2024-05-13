@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 80vh;
     flex: 1;
+    overflow: hidden;
 }
 
 .main h1 {
@@ -58,16 +59,15 @@
 
 .slideshow__container {
     width: 100%;
-    overflow: hidden;
     display: flex;
-    animation: marquee 10s infinite linear;
+    animation: marquee 100s infinite linear;
 }
 
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+.slideshow__container img {
+    height: 400px;
+}
+
+.slideshow__container #ocean-flip {
+    width: 400px;
+    object-fit: cover;
 }
